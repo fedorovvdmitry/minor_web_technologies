@@ -27,6 +27,9 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
   document.getElementById('openScrin').addEventListener('click', function () {
-    window.open('../images/scrin.png', '_blank')
+    window.open(
+      'https://fedorovvdmitry.github.io/minor_web_technologies/images/scrin.png',
+      '_blank'
+    )
   })
 })
