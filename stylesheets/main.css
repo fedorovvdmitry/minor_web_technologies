@@ -1,0 +1,428 @@
+/* header */
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+}
+
+header a,
+.back-to-top {
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #393c41;
+}
+
+header a:hover {
+  color: #e82127;
+}
+
+nav a.active {
+  font-weight: 600;
+  background-color: #f2f2f2;
+}
+
+/* footer */
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #f2f2f2;
+}
+
+.back-to-top {
+  position: absolute;
+  right: 20px;
+}
+
+.back-to-top:hover {
+  background-color: #f2f2f2;
+}
+
+/* index */
+
+p {
+  line-height: normal;
+}
+
+.index_info {
+  margin: 24px auto;
+  max-width: 800px;
+}
+
+.index_cover {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.header-logo svg {
+  fill: #5e5e5e;
+  height: 20px;
+}
+
+.header-logo svg:hover {
+  fill: #e82127;
+}
+
+.index_info {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  margin-top: 32px;
+}
+
+.index_info p {
+  margin-top: 24px;
+}
+
+.index_info ul {
+  margin-top: 16px;
+
+  list-style-type: square;
+}
+
+.index_info li {
+  margin-left: 24px;
+}
+
+.index_info li strong {
+  font-weight: 700;
+}
+
+/* passport */
+.passport_box {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.passport-container {
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 600px;
+  background-image: url(../images/passport.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.passport-container__top {
+  padding: 40px 0 200px 0;
+}
+
+.passport-container__bottom {
+  padding: 40px 50px 75px;
+  display: flex;
+  gap: 20px;
+}
+
+.text {
+  color: #383942;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.passport-info {
+  box-sizing: border-box;
+  margin-top: 75px;
+  padding: 0 60px;
+}
+
+.passport-info .text {
+  display: inline;
+}
+
+.passport-info .text:nth-of-type(1) {
+  margin-left: 60px;
+}
+
+.passport-info .text:nth-of-type(2) {
+  margin-left: 160px;
+}
+
+.passport-photo {
+  border-radius: 10px;
+  flex-shrink: 0;
+  margin-top: 50px;
+  width: 168px;
+  height: 220px;
+  background-image: url(../images/passport-photo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personal-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#issued {
+  margin-top: 40px;
+}
+
+.personal-info #surname {
+  margin: 40px auto 0;
+}
+
+.personal-info #name {
+  margin: 40px auto 0;
+}
+
+.personal-info #father {
+  margin-top: 18px;
+}
+
+.gender-birth-container {
+  margin-top: 12px;
+  display: flex;
+  gap: 80px;
+}
+
+#birthplace {
+  margin-top: 12px;
+}
+
+button {
+  margin-top: 20px;
+  width: max-content;
+  padding: 10px 20px;
+  background-color: #e82127;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #b8161b;
+}
+
+.grayButton {
+  display: block;
+  text-decoration: none;
+  margin-top: 20px;
+  width: max-content;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+  color: #393c41;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.grayButton:hover {
+  background-color: #393c41;
+  color: #f2f2f2;
+}
+
+/* task */
+
+.task_box {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.task_box p {
+  font-size: 24px;
+  margin: 24px 0;
+}
+
+.task_text {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+}
+
+form {
+  margin: 32px 0;
+  font-size: 24px;
+}
+
+.task_box input {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid #d0d1d2;
+}
+
+.task_box input:active {
+  background-color: #f4f4f4;
+}
+
+/* table */
+
+.tesla-models-table {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tesla-models-table h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.tesla-models-table th {
+  text-align: start;
+  font-weight: 600;
+}
+
+.tesla-models-table table {
+  width: 100%;
+  border: 1px solid #d0d1d2;
+  border-collapse: collapse;
+  background-image: url(../images/abstract-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tesla-models-table table th,
+.tesla-models-table table td {
+  padding: 8px;
+  border: 1px solid #d0d1d2;
+}
+
+/* about  */
+
+.anchor-menu {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.anchor-menu li a {
+  text-decoration: none;
+  color: #b8161b;
+}
+
+.anchor-menu li a:hover {
+  text-decoration: underline 1px;
+}
+
+.anchor-menu ol {
+  list-style-type: decimal;
+}
+
+#history,
+#mission,
+#innovation,
+#sustainability {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about_img {
+  width: 100%;
+  height: auto;
+  margin: 16px 0;
+  border-radius: 10px;
+}
+
+/* shop  */
+
+.product-cards {
+  max-width: 800px;
+  margin: 20px auto 80px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card:nth-of-type(5) img {
+  width: 75%;
+}
+
+.btn {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 16px;
+  border-radius: 5px;
+  background-color: #3e6ae1;
+  color: white;
+  text-decoration: none;
+}
+
+#purchase-form label {
+  margin: 16px 0;
+}
+
+/* form */
+
+.form-container,
+#purchase-form {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-container form,
+#purchase-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form label {
+  margin: 24px 0 16px;
+}
+
+.form-container input,
+#purchase-form input,
+#purchase-form select {
+  font-family: 'Poppins', sans-serif;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #d0d1d2;
+  border-radius: 5px;
+}
