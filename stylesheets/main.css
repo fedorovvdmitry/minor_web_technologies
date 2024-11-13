@@ -353,6 +353,21 @@ form {
   border-radius: 10px;
 }
 
+#mission ul {
+  margin: 24px 0 24px 16px;
+  list-style-type: disc;
+}
+
+#innovation ul {
+  margin: 24px 0 24px 16px;
+  list-style-type: square;
+}
+
+#mission ul li + li,
+#innovation ul li + li {
+  margin-top: 16px;
+}
+
 /* shop  */
 
 .product-cards {
