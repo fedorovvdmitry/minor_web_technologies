@@ -15,6 +15,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const z = parseFloat(document.getElementById('z').value)
     const resultElement = document.getElementById('result')
 
+    if (x <= 0 || y <= 0 || z <= 0) {
+      document.getElementById('result').innerText =
+        'Длины сторон должны быть положительными числами.'
+      return
+    }
+
     if (x + y > z && x + z > y && y + z > x) {
       const sides = [x, y, z].sort((a, b) => a - b)
       const isRightTriangle =
